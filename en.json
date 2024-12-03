@@ -240,7 +240,9 @@
     "boss-deck": "World Boss Deck",
     "add-boss-deck": "Add World Boss Deck",
     "rename-boss-deck": "Rename World Boss Deck",
-    "clear-boss-deck": "Clear World Boss Deck"
+    "clear-boss-deck": "Clear World Boss Deck",
+    "no-memecoin-team-joined-error": "You haven't joined any Memecoin Tourney Team yet. Select one to continue!",
+    "memecoin-tourney-link": "Click here to view available teams"
   },
   "store": {
     "title": "Store",
@@ -363,7 +365,9 @@
     "gym-points": "Gym Points",
     "gym-points-short": "GP",
     "gym-tier": "Tier",
-    "mp": "Mastery Points"
+    "mp": "Mastery Points",
+    "player-count": "Player Count",
+    "player-count-short": "P. Count"
   },
   "analytics": {
     "analytics": "Analytics",
@@ -710,7 +714,8 @@
     "gym-lose-streak": "Lose Streak",
     "tremble-trigger-msg": "{zerpmonName}  ({typeString})  is Trembling 🟥 ({movePercent}%)",
     "no-opponents-found-deck-invalid": "No opponents found, please make sure your deck is setup correctly",
-    "confirm-forfeit": "If you forfeit it will count as an automatic loss, are you sure?"
+    "confirm-forfeit": "If you forfeit it will count as an automatic loss, are you sure?",
+    "mp-earned": "MP Earned "
   },
   "test": {
     "test": "this is a test"
@@ -803,7 +808,13 @@
     "trade-offer-expired": "Sorry, this offer has already expired",
     "trade-successful": "Successfully completed the trade, please check your inventory for the received items",
     "confirm-offer-accept": "Are you sure you want to accept this offer from {offerCreator} ?",
-    "trade-items-not-added": "No trade items provided, add them by pressing the + button"
+    "trade-items-not-added": "No trade items provided, add them by pressing the + button",
+    "xrpcafe-collections": "XRP Cafe Collections",
+    "description": "Explore the different collections available in XRP Cafe",
+    "xrp-cafe": "XRP Cafe",
+    "tradeverse": "Tradeverse",
+    "tradeverse-collections": "Tradeverse Collections",
+    "description-tradeverse": "Explore the different collections available in Tradeverse"
   },
   "manage-listing": {
     "title": "My NFTs",
@@ -1250,7 +1261,7 @@
     "x-address-copied": "X-Address copied to clipboard",
     "deposit": "Deposit",
     "deposit-funds": "Deposit Funds",
-    "deposit-funds-description": "Send your XRP or ZRP to either classic or X-Address.",
+    "deposit-funds-description": "Send your XRP or ZRP to either classic or X-Address. Both address formats are the same destination address.",
     "withdraw": "Withdraw",
     "withdraw-funds": "Withdraw Funds",
     "available-to-withdraw": "Available to withdraw",
@@ -1316,6 +1327,17 @@
     "from-amount": "From  amount",
     "to-amount": "To amount",
     "cross-chain-withdraw-note": "Cross-chain transaction processing could take several minutes.",
-    "withdrawals-disabled": "ZerpWallet withdrawals have been disabled, please open a ticket in our official discord"
+    "withdrawals-disabled": "ZerpWallet withdrawals have been disabled, please open a ticket in our official discord",
+    "deposit-funds-description-trn": "Fill in the form below to deposit funds to your account",
+    "futurepass-not-connected": "Your FuturePass is not connected. Please connect your FuturePass to deposit funds.",
+    "trn-not-connected": "The Root Network API is either not connected or not yet ready",
+    "invalid-amount-deposit": "Invalid deposit amount. The minimum deposit amount is 0.001 XRP/ZRP.",
+    "bridge-notice": "Depositing funds from The Root Network to ZerpWallet uses a bridge. Bridging takes time and incurs a fee."
+  },
+  "pre-signing": {
+    "failed-prepare-futurepass-extrinsic": "Failed to prepare FuturePass transaction",
+    "insufficient-gas-balance": "Insufficient gas balance",
+    "failed-sign-and-send": "Transaction failed",
+    "success-sign-and-send": "Transaction succeeded"
   }
 }
